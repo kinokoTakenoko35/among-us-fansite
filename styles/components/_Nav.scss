@@ -1,0 +1,20 @@
+.nav-links {
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    height: 3rem;
+    margin-right: auto;
+  }
+}
+
+.header-link {
+  display: flex;
+  align-items: center;
+  .site-header_link {
+    margin-left: 1.5rem;
+    font-size: 0.95rem;
+  }
+}
