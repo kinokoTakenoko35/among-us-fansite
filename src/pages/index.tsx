@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { NextPage } from "next";
+//Components
+import { Main } from "./components/Main";
 
 const Page: NextPage = () => {
   return (
-    <div>
-      <section className="hero-section">
-        <h1>Hello</h1>
-      </section>
-    </div>
+    <>
+      <Main />
+    </>
   );
 };
 
