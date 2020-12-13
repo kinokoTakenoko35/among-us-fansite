@@ -1,6 +1,8 @@
 import axios from "axios";
 import { google } from "googleapis";
 
+//make GoogleAuth
+
 //Base URL Netlify or Vecelに上げるときにEnviroment variableを別であげる
 const YOUTUBE_API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 const url = `https://www.googleapis.com/youtube/v3/search?type=video&part=snippet&q=amongus&maxResults=6&key=?key=${YOUTUBE_API_KEY}`;
