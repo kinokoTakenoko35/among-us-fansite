@@ -1,10 +1,10 @@
-import Link from "next/link";
+import { ContentWrapper } from "../components/ContentWrapper";
 import { config } from "../../../site.config";
 
-export const Footer: React.FC = () => {
-  return (
-    <div className="footer-container">
-      <p>©kinoko.</p>
-    </div>
-  );
-};
+export const Footer: React.FC = () => (
+  <footer className="site-footer">
+    <ContentWrapper>
+      <p>© {config.siteMeta.name}</p>
+    </ContentWrapper>
+  </footer>
+);

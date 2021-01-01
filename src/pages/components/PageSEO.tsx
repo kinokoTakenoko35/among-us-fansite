@@ -12,6 +12,7 @@ type Props = {
   removeSiteNameFromTitle?: boolean;
 };
 
+//ジェネリック型を定義
 export const PageSEO: React.FC<Props> = (props) => {
   const {
     path,
