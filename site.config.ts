@@ -13,7 +13,7 @@ export const config = {
     },
     {
       title: "GitHub",
-      href: "https://github.com/kinokoTakenoko35/among-us-api",
+      href: "https://github.com/kinokoTakenoko35/among-us-fansite",
     },
     {
       title: "Twitter",
