@@ -1,3 +1,8 @@
-.wrapper {
-  margin: 0rem 2rem;
+.content-wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+.undo-wrap-for-scroll {
+  margin-right: -1.3rem;
 }

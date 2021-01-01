@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { fetchAPI } from "../api/youtubeApi";
+import { ContentWrapper } from "./ContentWrapper";
 
 export default function Home({ data }) {
   console.log("data", data);
@@ -7,7 +8,7 @@ export default function Home({ data }) {
 
 export const Main: React.FC = () => {
   return (
-    <div className="wrapper">
+    <ContentWrapper>
       <div className="main-hero">
         <div className="search-section">
           <input type="text" />
@@ -17,6 +18,6 @@ export const Main: React.FC = () => {
           <h3>Youtube</h3>
         </div>
       </div>
-    </div>
+    </ContentWrapper>
   );
 };

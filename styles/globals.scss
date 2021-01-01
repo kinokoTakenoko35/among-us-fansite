@@ -1,7 +1,11 @@
 @import "./_base";
 
-// components
+//components
 @import "./components/Nav";
 @import "./components/footer";
 @import "./components/Wrapper";
-@import "./components//Main"; // pages
+@import "./components//Main";
+
+//pages
+@import "./pages/about";
+@import "./pages/404";

@@ -1,5 +1,14 @@
-.footer-container {
+.site-footer {
+  border-top: solid 0.1px #1d1d1d;
   min-height: 10vh;
-  background: #272727;
   margin: 0rem;
+  font-size: 0.9rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #000000;
+  p {
+    color: #777777;
+  }
 }
