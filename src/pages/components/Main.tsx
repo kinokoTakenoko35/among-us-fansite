@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { fetchAPI } from "../api/youtubeApi";
+import { FetchAPI } from "../api/youtubeApi";
 import { ContentWrapper } from "./ContentWrapper";
 
 export default function Home({ data }) {
@@ -17,6 +17,7 @@ export const Main: React.FC = () => {
         <div className="video-section">
           <h3>Youtube</h3>
         </div>
+        <FetchAPI />
       </div>
     </ContentWrapper>
   );
